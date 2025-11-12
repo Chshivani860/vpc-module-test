@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "state-remote-15"
-    key  = "aws-module-demo"
+    bucket = "state-remote-01"
+    key  = "vpc-module-demo"
     region = "us-east-1"
 
     use_lockfile = true
